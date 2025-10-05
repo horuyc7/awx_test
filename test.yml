@@ -1,5 +1,6 @@
 - name: test playbook
   hosts: source_host
+  gather_facts: no
   tasks:
     - name: Hello Message
       debug:
