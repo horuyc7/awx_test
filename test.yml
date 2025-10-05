@@ -1,0 +1,6 @@
+- name: test playbook
+  hosts: source_host
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hwwerweewrwer"
